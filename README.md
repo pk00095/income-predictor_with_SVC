@@ -23,4 +23,7 @@ A random forest with 800 trees was trained with **workclass_notnull.csv, occupat
 
 
 # Training
-Script [5](https://github.com/pk00095/income-predictor_with_SVC/blob/master/adult_svc.py) was run to train the Support vector machine Classifier upon the preprocessed data and save it as **country_updated_adult.pkl**.
+Script [5](https://github.com/pk00095/income-predictor_with_SVC/blob/master/adult_svc.py) was run to train the Support vector machine Classifier upon the preprocessed data and save it as **country_updated_adult.pkl**, during training the **cross validation** was set to 3. It also displays the PRECISION and RECALL score of the classifier on the dataset.
+
+# To-do
+Increase the accuracy of the classifier beyond 85%. Add a test script to see performance on new unseen data
