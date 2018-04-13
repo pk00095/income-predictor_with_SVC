@@ -65,5 +65,5 @@ print 'Recall: {}'.format(cross_val_score(clf, X, y, cv=3, scoring='recall',verb
 #print 'Recall: {}'.format(cross_val_score(clf, X, y, cv=3,verbose=True))
 #scores= cross_val_score(clf, X, y, cv=3,verbose=True)
 #print 'Accuracy : {} +/-{}'.format(scores.mean(),scores.std()**2)
-#print 'Saving model as country_updated_adult.pkl'
-#joblib.dump(clf,'country_updated_adult.pkl')
+print 'Saving model as country_updated_adult.pkl'
+joblib.dump(clf,'country_updated_adult.pkl')
